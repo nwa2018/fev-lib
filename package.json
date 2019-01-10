@@ -1,0 +1,26 @@
+{
+  "name": "fev-lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pub": "lerna",
+    "doc": "docsify serve ./doc -o -p 6789",
+    "test:mocha": "fev d --cwd ./mocha",
+    "test:mocha-build": "fev b --cwd ./docs/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nwa2018/fev-lib.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nwa2018/fev-lib/issues"
+  },
+  "homepage": "https://github.com/nwa2018/fev-lib#readme",
+  "dependencies": {
+    "lerna": "^3.10.2",
+    "vue": "^2.5.21"
+  }
+}
