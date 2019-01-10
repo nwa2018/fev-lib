@@ -7,7 +7,7 @@
     "pub": "lerna publish -- --access public",
     "doc": "browser-sync start --server --files doc/* packages/**/README.md --port 3334 --startPath doc",
     "test:mocha": "fev d --cwd ./mocha",
-    "test:mocha-build": "fev b --cwd ./docs/test"
+    "test:mocha-build": "fev b --cwd ./mocha"
   },
   "repository": {
     "type": "git",
