@@ -4,11 +4,11 @@
 0 silly argv   '$0': 'lerna' }
 1 notice cli v3.10.2
 2 verbose rootPath /Users/fujuewen/private/fev/fev-lib
-3 verbose session b34544f014b97cd1
+3 verbose session a30fee2e62f2d913
 4 verbose user-agent lerna/3.10.2/node@v8.11.0+x64 (darwin)
 5 silly argv { _: [ 'publish' ], composed: 'publish', lernaVersion: '3.10.2' }
 6 verbose rootPath /Users/fujuewen/private/fev/fev-lib
-7 info current version 0.1.2
+7 info current version 0.1.3
 8 silly isAnythingCommitted
 9 verbose isAnythingCommitted 1
 10 silly currentBranch
@@ -18,16 +18,17 @@
 14 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 1
 15 silly hasTags
 16 verbose hasTags true
-17 silly git-describe.sync "v0.1.2-1-g7f9473a" => {"lastTagName":"v0.1.2","lastVersion":"v0.1.2","refCount":"1","sha":"7f9473a","isDirty":false}
-18 info Looking for changed packages since v0.1.2
-19 silly diffSinceIn v0.1.2 packages/load
+17 silly git-describe.sync "v0.1.3-1-g6af24a9" => {"lastTagName":"v0.1.3","lastVersion":"v0.1.3","refCount":"1","sha":"6af24a9","isDirty":false}
+18 info Looking for changed packages since v0.1.3
+19 silly diffSinceIn v0.1.3 packages/load
+20 silly diff packages/load/dev/index.js
 20 silly diff packages/load/package.json
-21 silly diffSinceIn v0.1.2 packages/utils
+21 silly diffSinceIn v0.1.3 packages/utils
 22 silly diff packages/utils/package.json
 23 verbose updated @fev/load
 24 verbose updated @fev/utils
-25 verbose git-describe undefined => "v0.1.2-1-g7f9473a"
-26 silly git-describe parsed => {"lastTagName":"v0.1.2","lastVersion":"v0.1.2","refCount":"1","sha":"7f9473a","isDirty":false}
+25 verbose git-describe undefined => "v0.1.3-1-g6af24a9"
+26 silly git-describe parsed => {"lastTagName":"v0.1.3","lastVersion":"v0.1.3","refCount":"1","sha":"6af24a9","isDirty":false}
 27 silly batched [ PackageGraphNode {
 27 silly batched     name: '@fev/load',
 27 silly batched     externalDependencies: Map {},
@@ -41,16 +42,16 @@
 28 silly lifecycle No script for "preversion" in "fev-lib", continuing
 29 silly lifecycle No script for "preversion" in "@fev/load", continuing
 30 silly lifecycle No script for "preversion" in "@fev/utils", continuing
-31 silly lifecycle No script for "version" in "@fev/load", continuing
-32 silly lifecycle No script for "version" in "@fev/utils", continuing
+31 silly lifecycle No script for "version" in "@fev/utils", continuing
+32 silly lifecycle No script for "version" in "@fev/load", continuing
 33 silly lifecycle No script for "version" in "fev-lib", continuing
-34 silly gitAdd [ '/Users/fujuewen/private/fev/fev-lib/packages/load/package.json',
-34 silly gitAdd   '/Users/fujuewen/private/fev/fev-lib/packages/utils/package.json',
+34 silly gitAdd [ '/Users/fujuewen/private/fev/fev-lib/packages/utils/package.json',
+34 silly gitAdd   '/Users/fujuewen/private/fev/fev-lib/packages/load/package.json',
 34 silly gitAdd   '/Users/fujuewen/private/fev/fev-lib/lerna.json' ]
-35 silly gitCommit v0.1.3
-36 verbose git [ 'commit', '-m', 'v0.1.3' ]
-37 silly gitTag v0.1.3
-38 verbose git [ 'tag', 'v0.1.3', '-m', 'v0.1.3' ]
+35 silly gitCommit v0.1.4
+36 verbose git [ 'commit', '-m', 'v0.1.4' ]
+37 silly gitTag v0.1.4
+38 verbose git [ 'tag', 'v0.1.4', '-m', 'v0.1.4' ]
 39 silly lifecycle No script for "postversion" in "@fev/load", continuing
 40 silly lifecycle No script for "postversion" in "@fev/utils", continuing
 41 silly lifecycle No script for "postversion" in "fev-lib", continuing
@@ -71,7 +72,7 @@
 47 notice Make sure you're authenticated properly ¯\_(ツ)_/¯
 48 warn ENOLICENSE Packages @fev/load, @fev/utils are missing a license
 49 silly getCurrentSHA
-50 verbose getCurrentSHA cb74f36d4630c813b684bb8557fefa8aa7c864c9
+50 verbose getCurrentSHA 1edeb17d7ea189ba2254af5c7d0e8ddec3ff3471
 51 silly lifecycle No script for "prepublish" in "fev-lib", continuing
 52 silly lifecycle No script for "prepare" in "fev-lib", continuing
 53 silly lifecycle No script for "prepublishOnly" in "fev-lib", continuing
@@ -93,7 +94,7 @@
 69 silly lifecycle No script for "postpack" in "fev-lib", continuing
 70 verbose publish @fev/load
 71 verbose publish @fev/utils
-72 http fetch PUT 402 http://registry.npmjs.org/@fev%2fload 935ms
-73 error Error: 402 Payment Required - PUT http://registry.npmjs.org/@fev%2fload - You must sign up for private packages
+72 http fetch PUT 402 http://registry.npmjs.org/@fev%2futils 858ms
+73 error Error: 402 Payment Required - PUT http://registry.npmjs.org/@fev%2futils - You must sign up for private packages
 73 error     at res.buffer.catch.then.body (/Users/fujuewen/private/fev/fev-lib/node_modules/npm-registry-fetch/check-response.js:104:15)
 73 error     at <anonymous>

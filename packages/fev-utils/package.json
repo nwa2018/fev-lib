@@ -1,5 +1,5 @@
 {
-  "name": "@fev/utils",
+  "name": "@fev/fev-utils",
   "version": "0.1.4",
   "description": "工具库",
   "main": "dist/index.js",
@@ -13,5 +13,5 @@
   "eslintIgnore": [
     "dev/*"
   ],
-  "gitHead": "cb74f36d4630c813b684bb8557fefa8aa7c864c9"
+  "gitHead": "1edeb17d7ea189ba2254af5c7d0e8ddec3ff3471"
 }
