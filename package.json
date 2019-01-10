@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "pub": "lerna publish -- --access public",
-    "doc": "docsify serve ./doc -o -p 6789",
+    "doc": "browser-sync start --server --files doc/* packages/**/README.md --port 3334 --startPath doc",
     "test:mocha": "fev d --cwd ./mocha",
     "test:mocha-build": "fev b --cwd ./docs/test"
   },
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/nwa2018/fev-lib#readme",
   "dependencies": {
+    "browser-sync": "^2.26.3",
     "lerna": "^3.10.2",
     "vue": "^2.5.21"
   }

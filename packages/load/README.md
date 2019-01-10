@@ -1,6 +1,6 @@
 # @fev/load
 
-> 加载模块 [查看源码]()
+> 加载模块 [查看源码](https://github.com/nwa2018/fev-lib/tree/master/packages/load)
 
 ## 安装
 使用`npm`
@@ -14,7 +14,10 @@ yarn add @fev/load
 
 ## 使用
 ``` js
-import Load from '@fev/load'
+import { asyncLoadJs } from '@fev/load'
+
+// 返回promise
+asyncLoadJs('https://xxxxx')
 ```
 
 ## 命令

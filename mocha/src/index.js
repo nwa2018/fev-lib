@@ -1,4 +1,4 @@
-['load', 'utils']
+['load', 'fev-utils']
   .map(mod => require(`../../packages/${mod}/test/index.js`))
 // require('../../packages/load/test/')
 

@@ -26,7 +26,6 @@ npm i @fev/fev@latest -g
 ```
 #### 如何编写文档
 ``` shell
-npm i docsify -g
 npm run doc
 ```
 #### 模板生成
@@ -74,8 +73,3 @@ npm run build
 ## 设计细节
 `package.json`中使用`module`与`main`，充分发挥`webpack tree shaking`的作用，详情请参见xxxx
 
-## TODO
-
-- `changelog`生成
-
-- `jest`集成到`fev`中，使用`jest`进行单元测试
