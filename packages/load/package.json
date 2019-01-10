@@ -1,16 +1,15 @@
 {
   "name": "@fev/load",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "加载模块",
   "main": "dist/index.js",
   "module": "src/index.js",
-  "license": "MIT",
+  "license": "ISC",
   "scripts": {
     "build": "fev b",
     "dev": "fev d --cwd dev"
   },
   "author": "fujuewen",
-  "license": "ISC",
   "eslintIgnore": [
     "dev/*"
   ],
