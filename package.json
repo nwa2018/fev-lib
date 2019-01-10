@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "pub": "lerna publish",
+    "pub": "lerna publish -- --access public",
     "doc": "docsify serve ./doc -o -p 6789",
     "test:mocha": "fev d --cwd ./mocha",
     "test:mocha-build": "fev b --cwd ./docs/test"

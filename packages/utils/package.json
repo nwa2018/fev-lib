@@ -12,5 +12,6 @@
   "license": "ISC",
   "eslintIgnore": [
     "dev/*"
-  ]
+  ],
+  "gitHead": "9aa7e2d62c2c2e0a3e83cac285e3fb36d3b184ba"
 }

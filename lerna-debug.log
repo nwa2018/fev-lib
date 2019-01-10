@@ -1,0 +1,94 @@
+0 silly argv { _: [ 'publish' ],
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '3.10.2',
+0 silly argv   '$0': '/Users/fujuewen/private/fev/fev-lib/node_modules/.bin/lerna' }
+1 notice cli v3.10.2
+2 verbose rootPath /Users/fujuewen/private/fev/fev-lib
+3 verbose session 2cba88e6c78a373e
+4 verbose user-agent lerna/3.10.2/node@v8.11.0+x64 (darwin)
+5 silly argv { _: [ 'publish' ], composed: 'publish', lernaVersion: '3.10.2' }
+6 verbose rootPath /Users/fujuewen/private/fev/fev-lib
+7 info current version 0.0.0
+8 silly isAnythingCommitted
+9 verbose isAnythingCommitted 1
+10 silly currentBranch
+11 verbose currentBranch master
+12 silly remoteBranchExists
+13 silly isBehindUpstream
+14 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 1
+15 silly hasTags
+16 verbose hasTags false
+17 info Looking for changed packages since initial commit.
+18 verbose updated @fev/load
+19 verbose updated @fev/utils
+20 verbose git-describe undefined => "4e3d7cf"
+21 silly git-describe parsed => {"refCount":"3","sha":"4e3d7cf","isDirty":false}
+22 silly batched [ PackageGraphNode {
+22 silly batched     name: '@fev/load',
+22 silly batched     externalDependencies: Map {},
+22 silly batched     localDependencies: Map {},
+22 silly batched     localDependents: Map {} },
+22 silly batched   PackageGraphNode {
+22 silly batched     name: '@fev/utils',
+22 silly batched     externalDependencies: Map {},
+22 silly batched     localDependencies: Map {},
+22 silly batched     localDependents: Map {} } ]
+23 silly lifecycle No script for "preversion" in "fev-lib", continuing
+24 silly lifecycle No script for "preversion" in "@fev/load", continuing
+25 silly lifecycle No script for "preversion" in "@fev/utils", continuing
+26 silly lifecycle No script for "version" in "@fev/load", continuing
+27 silly lifecycle No script for "version" in "@fev/utils", continuing
+28 silly lifecycle No script for "version" in "fev-lib", continuing
+29 silly gitAdd [ '/Users/fujuewen/private/fev/fev-lib/packages/load/package.json',
+29 silly gitAdd   '/Users/fujuewen/private/fev/fev-lib/packages/utils/package.json',
+29 silly gitAdd   '/Users/fujuewen/private/fev/fev-lib/lerna.json' ]
+30 silly gitCommit v0.1.0
+31 verbose git [ 'commit', '-m', 'v0.1.0' ]
+32 silly gitTag v0.1.0
+33 verbose git [ 'tag', 'v0.1.0', '-m', 'v0.1.0' ]
+34 silly lifecycle No script for "postversion" in "@fev/load", continuing
+35 silly lifecycle No script for "postversion" in "@fev/utils", continuing
+36 silly lifecycle No script for "postversion" in "fev-lib", continuing
+37 info git Pushing tags...
+38 silly gitPush origin master
+39 silly batched [ PackageGraphNode {
+39 silly batched     name: '@fev/load',
+39 silly batched     externalDependencies: Map {},
+39 silly batched     localDependencies: Map {},
+39 silly batched     localDependents: Map {} },
+39 silly batched   PackageGraphNode {
+39 silly batched     name: '@fev/utils',
+39 silly batched     externalDependencies: Map {},
+39 silly batched     localDependencies: Map {},
+39 silly batched     localDependents: Map {} } ]
+40 info publish Publishing packages to npm...
+41 notice Skipping all user and access validation due to third-party registry
+42 notice Make sure you're authenticated properly ¯\_(ツ)_/¯
+43 warn ENOLICENSE Packages @fev/load, @fev/utils are missing a license
+44 silly getCurrentSHA
+45 verbose getCurrentSHA 9aa7e2d62c2c2e0a3e83cac285e3fb36d3b184ba
+46 silly lifecycle No script for "prepublish" in "fev-lib", continuing
+47 silly lifecycle No script for "prepare" in "fev-lib", continuing
+48 silly lifecycle No script for "prepublishOnly" in "fev-lib", continuing
+49 silly lifecycle No script for "prepack" in "fev-lib", continuing
+50 verbose pack-directory packages/load
+51 verbose pack-directory packages/utils
+52 silly lifecycle No script for "prepublish" in "@fev/load", continuing
+53 silly lifecycle No script for "prepublish" in "@fev/utils", continuing
+54 silly lifecycle No script for "prepare" in "@fev/load", continuing
+55 silly lifecycle No script for "prepare" in "@fev/utils", continuing
+56 silly lifecycle No script for "prepublishOnly" in "@fev/load", continuing
+57 silly lifecycle No script for "prepublishOnly" in "@fev/utils", continuing
+58 silly lifecycle No script for "prepack" in "@fev/load", continuing
+59 silly lifecycle No script for "prepack" in "@fev/utils", continuing
+60 silly lifecycle No script for "postpack" in "@fev/load", continuing
+61 verbose packed @fev/load packages/load
+62 silly lifecycle No script for "postpack" in "@fev/utils", continuing
+63 verbose packed @fev/utils packages/utils
+64 silly lifecycle No script for "postpack" in "fev-lib", continuing
+65 verbose publish @fev/load
+66 verbose publish @fev/utils
+67 http fetch PUT 402 http://registry.npmjs.org/@fev%2futils 281ms
+68 error Error: 402 Payment Required - PUT http://registry.npmjs.org/@fev%2futils - You must sign up for private packages
+68 error     at res.buffer.catch.then.body (/Users/fujuewen/private/fev/fev-lib/node_modules/npm-registry-fetch/check-response.js:104:15)
+68 error     at <anonymous>
