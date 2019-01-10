@@ -1,6 +1,6 @@
 # @fev/fev-utils
 
-> 工具库 [查看源码](https://github.com/nwa2018/fev-lib/tree/master/packages/fev-utils)
+> 工具库 [查看源码](https://github.com/nwa2018/fev-lib/tree/master/packages/fev-utils/src/index.js)
 
 ## 安装
 使用`npm`

@@ -1,6 +1,6 @@
 # @fev/load
 
-> 加载模块 [查看源码](https://github.com/nwa2018/fev-lib/tree/master/packages/load)
+> 加载模块 [查看源码](https://github.com/nwa2018/fev-lib/tree/master/packages/load/src/index.js)
 
 ## 安装
 使用`npm`
