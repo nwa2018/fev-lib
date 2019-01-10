@@ -12,7 +12,6 @@ npm i @fev/load
 yarn add @fev/load
 ```
 
-
 ## 使用
 ``` js
 import { asyncLoadJs } from '@fev/load'
