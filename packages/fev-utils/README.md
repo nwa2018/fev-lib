@@ -1,21 +1,23 @@
-# @fev/utils
+# @fev/fev-utils
 
-> 工具库 [查看源码]()
+> 工具库 [查看源码](https://github.com/nwa2018/fev-lib/tree/master/packages/fev-utils)
 
 ## 安装
 使用`npm`
 ```
-npm i @fev/utils
+npm i @fev/fev-utils
 ```
 或者使用`yarn`
 ```
-yarn add @fev/utils
+yarn add @fev/fev-utils
 ```
 
 ## 使用
 ``` js
-import Utils from '@fev/utils'
+import Utils from '@fev/fev-utils'
 ```
+
+xxxx
 
 ## 命令
 运行以下命令进行开发`debug`

@@ -3,7 +3,7 @@
 
 [组件一览表](docs/list.md)
 
-[测试用例地址](https)
+[测试用例地址](https://nwa2018.github.io/fev-lib/mocha/dist/)
 ## 目录结构
 ```
 fev-lib/
@@ -24,7 +24,7 @@ cd fev-lib
 npm i
 npm i @fev/fev@latest -g
 ```
-#### 如何编写文档
+#### 如何预览文档
 ``` shell
 npm run doc
 ```
@@ -50,9 +50,9 @@ npm run build
 ```
 
 #### 测试用例
-在组件库`test`目录下编写完测试用例后，根目录运行`npm run test:mocha`即可检查测试情况
+在组件库`test`目录下编写完测试用例后，根目录运行`npm run mocha`即可检查测试情况
 
-测试用例编写后可以运行`test:mocha-build`准备发到线上
+测试用例编写后可以运行`mocha:build`准备发到线上
 
 ## 发布
 1. 到`npm`包下运行`npm run build`输入`umd`格式代码
